@@ -1,0 +1,16 @@
+/* Add your CSS styles here */
+.header {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    width: 55px; /* Set the width of your logo as needed */
+    height: 55px; /* Set the height of your logo as needed */
+    margin-right: 10px; /* Adjust the margin as needed to separate the logo and text */
+}
+
+#os {
+    font-size: 24px; /* Set the font size as needed */
+    font-weight: bold; /* Set the font weight as needed */
+}
