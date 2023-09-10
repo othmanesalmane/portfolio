@@ -174,7 +174,6 @@
             </div>
           </div>
           <img src="img/profile1.png" alt="profile1" class="slider-img flex-shrink-0 w-80 rounded-full border-6 border-white shadow-md"/>
-          <img src="img/profile2.png" alt="profile2" class="slider-img flex-shrink-0 w-80 rounded-full border-6 border-white shadow-md"/>
         </div>
       </div>
     </div>
@@ -663,34 +662,6 @@ function moveForward() {
               </span>
           </div>
       </section>
-      <script>
-        document.addEventListener("DOMContentLoaded", function () {
-    const images = document.querySelectorAll(".slider-img");
-    let currentImageIndex = 0;
-
-    function showImage(index) {
-        images.forEach((img, i) => {
-            if (i === index) {
-                img.style.display = "block";
-            } else {
-                img.style.display = "none";
-            }
-        });
-    }
-
-    function nextImage() {
-        currentImageIndex = (currentImageIndex + 1) % images.length;
-        showImage(currentImageIndex);
-    }
-
-    // Initial display
-    showImage(currentImageIndex);
-
-    // Automatically switch images every 4 seconds
-    setInterval(nextImage, 7000);
-});
-
-      </script>
     <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
     
   </body>
